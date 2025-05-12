@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giriş Formu</title>
+    <link rel="stylesheet" href="css/giriş.css" />
+    <!-- CSS dosya yolunu düzelttim -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="php/Giriş.php" method="post">
+          <div class="input-box">
+            <input type="email" required name="email" />
+            <!-- input etiketlerine name özelliği ekledim -->
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <input type="password" required name="password" />
+            <!-- input etiketlerine name özelliği ekledim -->
+            <label>Password</label>
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
